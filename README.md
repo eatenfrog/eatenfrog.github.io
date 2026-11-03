@@ -1,9 +1,9 @@
 # Eaten Frog — web sitesi
 
-GitHub Pages üzerinde yayınlanan statik site. Framework yok: HTML, CSS, JS.
+GitHub Pages üzerinde yayınlanan statik site. Framework yok: HTML ve CSS.
 
 - `index.html` — tek sayfa
-- `games.js` — oyun listesi; yeni oyun eklemek için buraya kayıt ekle
-- `assets/` — logo, görseller
+- `assets/wordmark.png` — "EATEN FROG" yazısı
+- `assets/favicon.svg` — sekme simgesi
 
 Yayın: Settings → Pages → Branch `main`, folder `/ (root)`.
