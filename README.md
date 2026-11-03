@@ -1,5 +1,7 @@
 # Eaten Frog — web sitesi
 
+**Site:** https://eatenfrog.github.io
+
 GitHub Pages üzerinde yayınlanan statik site. Framework yok: HTML ve CSS.
 
 - `index.html` — tek sayfa
