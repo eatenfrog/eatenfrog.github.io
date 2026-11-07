@@ -1,11 +1,12 @@
-# Eaten Frog — web sitesi
+# Eaten Frog website
 
 **Site:** https://eatenfrog.github.io
 
-GitHub Pages üzerinde yayınlanan statik site. Framework yok: HTML ve CSS.
+A static site published with GitHub Pages. No framework: plain HTML and CSS.
 
-- `index.html` — tek sayfa
-- `assets/logo.svg` — kurbağa + "EATEN FROG" yazısı
-- `assets/favicon.svg` — sekme simgesi
+- `index.html`: the studio home page
+- `fruit-rain/`: the Fruit Rain game page and its privacy policy
+- `assets/logo.svg`: the frog and the "EATEN FROG" wordmark
+- `assets/favicon.svg`: the tab icon
 
-Yayın: Settings → Pages → Branch `main`, folder `/ (root)`.
+Publishing: Settings > Pages > Branch `main`, folder `/ (root)`.
