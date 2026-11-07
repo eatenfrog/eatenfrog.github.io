@@ -6,7 +6,7 @@
   <title>Fruit Rain Privacy Policy</title>
   <meta name="description" content="Privacy policy of Fruit Rain, a game by Eaten Frog.">
   <link rel="icon" href="../../assets/favicon.svg?v=2" type="image/svg+xml">
-  <link rel="stylesheet" href="../../style.css?v=4">
+  <link rel="stylesheet" href="../../style.css?v=5">
 </head>
 <body class="doc-page">
   <header class="doc-header">
@@ -19,10 +19,10 @@
 
       <p>Fruit Rain is a game made by Eaten Frog ("we", "us"). We are responsible for the game under the EU and UK General Data Protection Regulation (GDPR) and other data protection laws that apply to it. This policy explains what information is used when you play Fruit Rain on Android (Google Play) or on the web.</p>
 
-      <p class="summary"><strong>In short:</strong> Fruit Rain has no accounts of its own and we run no servers, so we do not receive your game data. Your progress stays on your device. On Android you can also back it up to your Google account with Google Play Games. The game shows ads from Google AdMob, and Google collects some device information to show and measure those ads. Players under 13 never get personalized ads.</p>
+      <p class="summary"><strong>In short:</strong> Fruit Rain has no accounts of its own. Your progress stays on your device. On Android you can also back it up to your Google account with Google Play Games. If you choose to join the game's ranking on Android, our ranking server receives your Play Games player ID, gamer name and scores, and other players see your gamer name and scores. The game shows ads from Google AdMob, and Google collects some device information to show and measure those ads. Players under 13 never get personalized ads and are never asked to join the ranking.</p>
 
       <h2 id="device">1. Information stored on your device</h2>
-      <p>Your progress, coins, items bought with in-game coins, settings and the birth year you enter on the age screen are saved on your device. We never receive them. They are deleted when you uninstall the game or clear its data, unless you back them up with Google Play Games (section 4). Android's own device backup, if you have it turned on, may also copy the game's saved data to your Google account and bring it back on a new phone; Google handles that backup, and you can turn it off in your phone's settings.</p>
+      <p>Your progress, coins, items bought with in-game coins, settings, the birth year you enter on the age screen and your answer about joining the ranking are saved on your device. We never receive them. They are deleted when you uninstall the game or clear its data, unless you back them up with Google Play Games (section 4). Android's own device backup, if you have it turned on, may also copy the game's saved data to your Google account and bring it back on a new phone; Google handles that backup, and you can turn it off in your phone's settings.</p>
 
       <h2 id="age">2. Age screen</h2>
       <p>On Android, the game asks for your birth year the first time you play, before any ad is loaded. The game never sends the year anywhere (only Android's device backup, if turned on, copies it with the rest of the game's data). From the year alone, the game takes the youngest age you could be, so a player whose birthday is still ahead this year gets the younger group's treatment. The game only tells Google which ad treatment to use:</p>
@@ -46,18 +46,26 @@
       <h2 id="play-games">4. Google Play Games (Android)</h2>
       <p>On Android, Fruit Rain can use Google Play Games Services, which Google provides. When you are signed in to Google Play Games on your phone, the game uses this Google user data:</p>
       <ul>
-        <li>your Play Games player ID and gamer name, to show your name in the game and on leaderboards,</li>
-        <li>your scores, sent to Google's leaderboards so you can compare them with other players. The game also loads the top scores, gamer names and Play Games player IDs of other players, and your place on the weekly board, to show the ranking and give weekly rewards,</li>
+        <li>your Play Games player ID and gamer name, to show your name in the game and, if you join it, in the game's ranking (see "The game's ranking" below),</li>
         <li>your achievements, stored by Google in your Play Games profile,</li>
         <li>a copy of your game progress (coins, level, unlocked looks, statistics), saved as a saved game in your Google account's hidden app data space for this game, so you can get it back on a new phone or after reinstalling. The game updates it when you sign in, finish a game, open the main menu or come back to the game, and merges it with the progress on your phone so your records, levels and unlocked items from both are kept. The birth year from the age screen is not part of it. The game can only see its own saved game, never your other files.</li>
       </ul>
-      <p>This data goes directly between your phone and Google; we do not receive it. The game uses Google user data only to provide these game features. We do not sell it, use it for advertising, transfer it to anyone else, or let any person read it. Signing in is optional, and the game works fully without it. For children with a supervised Google account, Google and the parent's Google Family Link settings decide whether Play Games can be used. Fruit Rain's use of information received from Google Play Games Services follows the Google API Services User Data Policy, including its Limited Use requirements. Google's privacy policy applies: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+      <p>Apart from the ranking described below, this data goes directly between your phone and Google; we do not receive it. The game uses Google user data only to provide these game features. We do not sell it, use it for advertising, transfer it to anyone else, or let any person read it. Signing in is optional, and the game works fully without it. For children with a supervised Google account, Google and the parent's Google Family Link settings decide whether Play Games can be used. Fruit Rain's use of information received from Google Play Games Services follows the Google API Services User Data Policy, including its Limited Use requirements. Google's privacy policy applies: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+      <h3 id="ranking">The game's ranking</h3>
+      <p>The ranking in the game (this week's and all-time top players) runs on a small server that we operate on Cloudflare. Joining it is your choice: the game asks once, after the age screen, and if you say no you can join later from the ranking screen. Players under 13 are never asked. Until you join, the game sends nothing to the ranking server and does not load the ranking.</p>
+      <p>If you join, the ranking server receives and keeps:</p>
+      <ul>
+        <li>your Play Games player ID and gamer name. To make sure nobody can post scores in your name, the game asks Google Play Games for a one-time code, and our server exchanges it with Google for your player ID and gamer name. We receive no email address, picture or other Google account data, and we do not keep the code or any Google access token,</li>
+        <li>your best score of each week and your best score of all time, with the time each was set, and how many scores you sent that day (to stop abuse).</li>
+      </ul>
+      <p>Like any web request, reaching the server also shows it your IP address and standard technical headers; the ranking server does not save them, and Cloudflare keeps only short-lived technical logs to run and protect its network. Other players see your gamer name and scores in the ranking, never your player ID. We use this data only to run the ranking, give weekly rewards and remove cheating. We do not sell it, use it for advertising, or give it to anyone except Cloudflare, which stores and processes it for us (section 11).</p>
 
       <h2 id="other-google">5. Other Google Play features</h2>
       <ul>
         <li><strong>Rating window:</strong> the game may ask you to rate it in Google Play's own rating window. A rating or review you choose to give goes to Google Play and is published under Google Play's terms. We only see it as a public review.</li>
         <li><strong>Updates:</strong> the game asks Google Play whether a newer version is available. Google Play handles the download.</li>
-        <li><strong>Time check:</strong> on Android, to give weekly leaderboard rewards fairly, the game reads the current time from Google's servers (www.google.com), whether or not you are signed in to Play Games. Like any web request, this sends your IP address and standard technical headers to Google. The game sends no game or personal data with it and keeps nothing from it except the time.</li>
+        <li><strong>Time check:</strong> on Android, to give weekly ranking rewards fairly, the game reads the current time from Google's servers (www.google.com), whether or not you are signed in to Play Games. Like any web request, this sends your IP address and standard technical headers to Google. The game sends no game or personal data with it and keeps nothing from it except the time.</li>
       </ul>
 
       <h2 id="notifications">6. Notifications</h2>
@@ -68,40 +76,43 @@
 
       <h2 id="not-done">8. What we do not do</h2>
       <ul>
-        <li>We run no servers and receive no game, device or advertising data. The data described in sections 3 to 5 is handled by Google.</li>
+        <li>Apart from the ranking server (section 4), we run no servers. We receive no game progress, device or advertising data; the rest of the data described in sections 3 to 5 is handled by Google.</li>
         <li>We do not sell personal information for money.</li>
         <li>We use no analytics or crash reporting services of our own, and Unity's analytics, diagnostics and crash reporting are turned off in the game.</li>
-        <li>The game has no chat and no purchases with real money. Other players can see only your Play Games profile (gamer name and picture, as your Play Games privacy settings allow) and your scores on the leaderboards.</li>
+        <li>The game has no chat and no purchases with real money. Other players can see only your gamer name and scores, and only if you join the ranking.</li>
       </ul>
 
       <h2 id="children">9. Children</h2>
-      <p>Fruit Rain is made for players of all ages. We do not knowingly collect personal information from children. The game never asks for a name, email address or any contact information, and players cannot type a name: the game shows your Play Games gamer name once you sign in, and otherwise "Player" with a number. For players under 13, the game tells Google to treat every ad request as directed to children (section 2). Google then does not use the advertising ID and shows no personalized ads or remarketing. It may still use limited technical information, such as the IP address and device information, only to support internal operations: to show ads based on the game's content, limit how often an ad appears, measure ads and prevent fraud. Only ad software certified for Google Play's Families program is used. A parent who has questions, or wants information connected with their child removed, can contact us (section 14).</p>
+      <p>Fruit Rain is made for players of all ages. We do not knowingly collect personal information from children. The game never asks for a name, email address or any contact information, and players cannot type a name: the game shows your Play Games gamer name once you sign in, and otherwise "Player" with a number. For players under 13, the game tells Google to treat every ad request as directed to children (section 2). Google then does not use the advertising ID and shows no personalized ads or remarketing. It may still use limited technical information, such as the IP address and device information, only to support internal operations: to show ads based on the game's content, limit how often an ad appears, measure ads and prevent fraud. Only ad software certified for Google Play's Families program is used. Players under 13 are never asked to join the ranking, and the game sends nothing about them to our ranking server. A parent who has questions, or wants information connected with their child removed, can contact us (section 14).</p>
 
       <h2 id="legal-basis">10. Why this information may be used (legal bases)</h2>
       <ul>
         <li>Personalized ads, and storing or reading ad information on your device where the law requires consent: your consent (GDPR Art. 6(1)(a)). You can withdraw it at any time as described in section 3.</li>
         <li>Non-personalized ads, ad measurement, frequency limits and fraud prevention: our legitimate interest in funding a free game and keeping ads safe (GDPR Art. 6(1)(f)).</li>
-        <li>Play Games sign-in, leaderboards, achievements and cloud save: providing the features you chose to use (GDPR Art. 6(1)(b)).</li>
+        <li>Play Games sign-in, achievements and cloud save: providing the features you chose to use (GDPR Art. 6(1)(b)).</li>
+        <li>The ranking: your consent, given when you choose to join (GDPR Art. 6(1)(a)). You can withdraw it at any time by emailing us (section 14); we then delete your ranking data.</li>
         <li>Answering your emails: our legitimate interest in replying to you.</li>
       </ul>
 
       <h2 id="transfers">11. Where the information goes</h2>
       <p>Google processes the data described in sections 3 to 5 on servers outside your country, including in the United States. Google describes the safeguards it uses for these transfers, such as the EU-U.S. Data Privacy Framework and standard contractual clauses, in its privacy policy.</p>
+      <p>Our ranking server runs on Cloudflare, Inc., which processes the ranking data for us under its data processing agreement. Cloudflare may process it in the United States and other countries, with safeguards such as the EU-U.S. Data Privacy Framework and standard contractual clauses.</p>
 
       <h2 id="delete-data">12. How long information is kept, and how to delete it</h2>
       <ul>
         <li><strong>On your device:</strong> until you uninstall the game or clear its data (Android: Settings &gt; Apps &gt; Fruit Rain &gt; Storage &gt; Clear storage).</li>
-        <li><strong>Play Games data (cloud save, scores, achievements):</strong> until you delete it. In the Google Play Store app, tap your profile icon &gt; Settings &gt; General &gt; Play Games Profile &gt; Privacy &amp; Settings &gt; Your Data &gt; Delete profile &amp; game data, then under "Delete individual game data" find Fruit Rain and tap Delete. On the web, go to <a href="https://play.google.com/games/profile">play.google.com/games/profile</a> &gt; Your Data &gt; Delete Play Games Account &amp; Data. You can also delete your whole Play Games profile there. Clear the game's data on your phone first (see above). Otherwise the game saves your progress to Play Games again the next time it syncs. Deleting a game's data may not remove scores already on a leaderboard; deleting your whole Play Games profile removes them.</li>
+        <li><strong>Play Games data (cloud save, achievements):</strong> until you delete it. In the Google Play Store app, tap your profile icon &gt; Settings &gt; General &gt; Play Games Profile &gt; Privacy &amp; Settings &gt; Your Data &gt; Delete profile &amp; game data, then under "Delete individual game data" find Fruit Rain and tap Delete. On the web, go to <a href="https://play.google.com/games/profile">play.google.com/games/profile</a> &gt; Your Data &gt; Delete Play Games Account &amp; Data. You can also delete your whole Play Games profile there. Clear the game's data on your phone first (see above). Otherwise the game saves your progress to Play Games again the next time it syncs. Scores that earlier versions of the game sent to Google's leaderboards may stay there after you delete a game's data; deleting your whole Play Games profile removes them.</li>
+        <li><strong>Ranking data (Android, if you joined):</strong> weekly scores are deleted automatically after 8 weeks. Your player ID, gamer name and all-time best are kept while the ranking runs, until you ask us to delete them: email us with your gamer name (section 14) and we delete them within 30 days. If you change your gamer name in Play Games, the ranking shows the new one the next time you play.</li>
         <li><strong>Advertising data:</strong> kept by Google as described in its privacy policy. You can reset or delete your advertising ID in your phone's settings, and manage your Google ad data at <a href="https://myadcenter.google.com">myadcenter.google.com</a>.</li>
         <li><strong>Emails you send us:</strong> kept only as long as needed to answer you, and deleted within 12 months.</li>
       </ul>
       <p>If you cannot delete something yourself, email us (section 14) and we will help within 30 days.</p>
 
       <h2 id="security">13. Security</h2>
-      <p>All data the game and its Google services send over the internet is encrypted in transit (HTTPS/TLS). Data saved on your device is protected by your device's own app sandbox. We hold no copy of it.</p>
+      <p>All data the game, its Google services and our ranking server send over the internet is encrypted in transit (HTTPS/TLS). Data saved on your device is protected by your device's own app sandbox, and we hold no copy of it. The ranking server keeps only the data listed in section 4, takes scores only with a signed session tied to your Play Games account, and only we can open its database.</p>
 
       <h2 id="rights">14. Your rights and contact</h2>
-      <p>Depending on where you live, you may have the right to access, correct, delete or move your personal data, to object to or restrict its use, and to withdraw consent. Because we hold no personal data about you except emails you send us, most requests are handled by Google through your Google account controls. We will gladly help with any request. You can also complain to your local data protection authority.</p>
+      <p>Depending on where you live, you may have the right to access, correct, delete or move your personal data, to object to or restrict its use, and to withdraw consent. We hold no personal data about you except emails you send us and, if you joined the ranking, your ranking data (section 4). Most other requests are handled by Google through your Google account controls. We will gladly help with any request. You can also complain to your local data protection authority.</p>
       <p><strong>U.S. residents:</strong> we do not sell personal information for money. Google's personalized ads may count as "selling" or "sharing" under some U.S. state privacy laws. You can opt out under Settings &gt; Privacy in the game where that option is shown, and at any time by turning off ad personalization in your phone's settings.</p>
       <p>Eaten Frog<br><a href="mailto:eatenfrog.gamedev@gmail.com?subject=Fruit%20Rain%20privacy">eatenfrog.gamedev@gmail.com</a></p>
 
