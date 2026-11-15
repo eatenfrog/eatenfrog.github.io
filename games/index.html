@@ -6,7 +6,7 @@
   <title>Games | Eaten Frog</title>
   <meta name="description" content="Games by Eaten Frog, with each game's page, privacy policy and stores.">
   <link rel="icon" href="../assets/favicon.svg?v=2" type="image/svg+xml">
-  <link rel="stylesheet" href="../style.css?v=7">
+  <link rel="stylesheet" href="../style.css?v=8">
 </head>
 <body>
   <header class="site-head">
@@ -16,44 +16,42 @@
   <main class="games">
     <h1>Games</h1>
 
-    <!-- One <article class="game"> per game. Copy this block for a new game. -->
-    <article class="game has-logo">
-      <a class="game-logo" href="../dr-math/"><img src="../assets/games/dr-math-logo.png" alt="Dr.Math" width="880" height="320"></a>
-      <div>
-        <h2>Dr.Math</h2>
-        <p class="what">Quick-decision math game</p>
-      </div>
-      <div class="game-links">
-        <a class="main" href="../dr-math/">About game</a>
-        <a href="../dr-math/privacy/">Privacy policy</a>
-      </div>
-      <div class="platforms">
-        <span class="label">Available on</span>
-        <ul>
-          <!-- When the store address is known, use: <li><a class="platform" href="STORE_URL">Google Play</a></li> -->
-          <li><span class="platform">Google Play</span></li>
-        </ul>
-      </div>
-    </article>
+    <!-- One <article class="game"> per game. Copy a block for a new game and pick a dark --stage color for its logo. -->
+    <div class="game-grid">
+      <article class="game" style="--stage:#2a1a5e">
+        <a class="game-stage" href="../dr-math/"><img src="../assets/games/dr-math-logo.png" alt="Dr.Math" width="880" height="320"></a>
+        <div class="game-body">
+          <h2>Dr.Math</h2>
+          <p class="what">Quick-decision math game</p>
+          <p class="desc">Two operations appear on the screen. Tap the one with the larger result before the timer runs out.</p>
+          <ul class="stores" aria-label="Available on">
+            <!-- When the store address is known, use: <li><a class="store" href="STORE_URL"><small>Get it on</small><b>Google Play</b></a></li> -->
+            <li><span class="store"><small>Get it on</small><b>Google Play</b></span></li>
+          </ul>
+        </div>
+        <div class="game-links">
+          <a href="../dr-math/">About game</a>
+          <a href="../dr-math/privacy/">Privacy policy</a>
+        </div>
+      </article>
 
-    <article class="game has-logo">
-      <a class="game-logo" href="../fruit-rain/"><img src="../assets/games/fruit-rain-logo.png" alt="Fruit Rain" width="585" height="372"></a>
-      <div>
-        <h2>Fruit Rain</h2>
-        <p class="what">Fruit-merge puzzle</p>
-      </div>
-      <div class="game-links">
-        <a class="main" href="../fruit-rain/">About game</a>
-        <a href="../fruit-rain/privacy/">Privacy policy</a>
-      </div>
-      <div class="platforms">
-        <span class="label">Available on</span>
-        <ul>
-          <!-- When the store address is known, use: <li><a class="platform" href="STORE_URL">Google Play</a></li> -->
-          <li><span class="platform">Google Play</span></li>
-        </ul>
-      </div>
-    </article>
+      <article class="game" style="--stage:#5a1230">
+        <a class="game-stage" href="../fruit-rain/"><img src="../assets/games/fruit-rain-logo.png" alt="Fruit Rain" width="585" height="372"></a>
+        <div class="game-body">
+          <h2>Fruit Rain</h2>
+          <p class="what">Fruit-merge puzzle</p>
+          <p class="desc">Drop two of the same fruit onto each other and they merge into a bigger one, from cherry up to watermelon.</p>
+          <ul class="stores" aria-label="Available on">
+            <!-- When the store address is known, use: <li><a class="store" href="STORE_URL"><small>Get it on</small><b>Google Play</b></a></li> -->
+            <li><span class="store"><small>Get it on</small><b>Google Play</b></span></li>
+          </ul>
+        </div>
+        <div class="game-links">
+          <a href="../fruit-rain/">About game</a>
+          <a href="../fruit-rain/privacy/">Privacy policy</a>
+        </div>
+      </article>
+    </div>
   </main>
   <footer>
     <a href="mailto:eatenfrog.gamedev@gmail.com">eatenfrog.gamedev@gmail.com</a>
