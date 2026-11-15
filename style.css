@@ -61,7 +61,13 @@ footer a:hover{text-decoration:underline}
 .platform{display:inline-block;padding:6px 12px;border-radius:8px;font-size:.84rem;font-weight:600;white-space:nowrap;
   text-decoration:none;background:#0b1a2b;color:#fff;border:1px solid var(--glass-line)}
 a.platform:hover{background:#16304d}
-@media (max-width:820px){.game{grid-template-columns:minmax(0,1fr)}}
+/* Optional game logo, in the first column on a light tile so dark outlines stay visible */
+.game.has-logo{grid-template-columns:160px minmax(0,1fr) minmax(0,1fr) minmax(0,1.1fr)}
+.game-logo{display:block;background:var(--paper);border-radius:12px;padding:8px 10px;transition:transform .15s}
+.game-logo:hover{transform:scale(1.03)}
+.game-logo img{display:block;width:100%;height:auto}
+@media (prefers-reduced-motion:reduce){.game-logo{transition:none}.game-logo:hover{transform:none}}
+@media (max-width:820px){.game,.game.has-logo{grid-template-columns:minmax(0,1fr)}.game-logo{max-width:220px}}
 
 /* Document pages (game page, privacy policy) */
 .crumb{font-size:.88rem;color:var(--muted);padding:6px 0 14px}
@@ -80,3 +86,4 @@ main.doc{flex:1;display:block;width:100%;max-width:792px;margin:0 auto;padding:8
 .doc .platforms{margin:0 0 18px}
 .doc .platforms .label{color:var(--paper-muted)}
 .doc .platforms ul{padding:0}
+.doc-logo{display:block;width:min(280px,70%);height:auto;margin:0 0 14px}

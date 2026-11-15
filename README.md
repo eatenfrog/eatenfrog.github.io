@@ -6,7 +6,8 @@ A static site published with GitHub Pages. No framework: plain HTML and CSS.
 
 - `index.html`: the studio home page
 - `games/`: the list of games, each with its game page, privacy policy and stores
-- `fruit-rain/`: the Fruit Rain game page and its privacy policy
+- `fruit-rain/`, `dr-math/`: each game's page and its privacy policy
+- `assets/games/`: game logos shown on the games list (optional, `has-logo` on the game's block)
 - `assets/logo.svg`: the frog and the "EATEN FROG" wordmark
 - `assets/favicon.svg`: the tab icon
 - `assets/fonts/`: Fredoka and Inter, served from this site (SIL Open Font License)
